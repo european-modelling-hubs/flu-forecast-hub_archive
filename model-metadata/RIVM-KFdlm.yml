@@ -1,0 +1,23 @@
+team_name: The Dutch National Institute for Public Health and the Environment (RIVM)
+model_name: Kalman Filter dlm
+team_abbr: RIVM
+model_abbr: KFdlm
+model_contributors:
+    - name: Fuminari Miura
+      affiliation: The Dutch National Institute for Public Health and the Environment (RIVM)
+      email: fuminari.miura@rivm.nl
+    - name: Don Klinkenberg
+      affiliation: The Dutch National Institute for Public Health and the Environment (RIVM)
+      email: don.klinkenberg@rivm.nl
+    - name: Jantien Backer
+      affiliation: The Dutch National Institute for Public Health and the Environment (RIVM)
+      email: jantien.backer@rivm.nl
+    - name: Jan van de Kassteele
+      affiliation: The Dutch National Institute for Public Health and the Environment (RIVM)
+      email: jan.van.de.kassteele@rivm.nl
+    - name: Jacco Wallinga
+      affiliation: The Dutch National Institute for Public Health and the Environment (RIVM)
+      email: jacco.wallinga@rivm.nl
+team_model_designation: primary
+methods: A dynamic linear model with the local trend and the first and second derivative terms, using a Kalman filter implemented in R-package dlm with log(x+1) transformation of the time series.
+data_inputs: Surveillance data from the RespiCast platform.
